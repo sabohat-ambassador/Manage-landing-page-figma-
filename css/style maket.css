@@ -1,0 +1,412 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam:wght@400;500;700&display=swap');
+
+
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    font-size: 14px;
+}
+
+body {
+    margin: 0;
+    font-family: 'Be Vietnam', sans-serif;
+    z-index: 99;
+
+    background-image: url(../img/Rectangle.png);
+    background-repeat: no-repeat;
+    background-position: 750px 0;
+}
+
+
+
+/* Umumiy stillar */
+
+.container {
+    max-width: 1110px;
+    margin: 0 auto;
+}
+
+.row {
+    display: flex;
+}
+
+a {
+    text-decoration: none;
+}
+
+.btn {
+    padding: 12px 32px;
+    border: none;
+    font-size: 1rem;
+    font-weight: 700;
+    line-height: 1.42rem;
+    color: #FCF6F5;
+    background: #F3603C;
+    box-shadow: 0px 15px 15px -10px #FF9F8E;
+    border-radius: 22px;
+    cursor: pointer;
+    transition: opacity 500ms ease;
+}
+
+.btn:hover {
+    opacity: 0.7;
+}
+
+/* Main Header */
+
+.main-header {
+    /* position: fixed; */
+    top: 0;
+    width: 100%;
+    padding: 18px 0;
+    margin-top: 73px;
+
+}
+
+.main-header .row {
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main-nav-link {
+    position: relative;
+    display: inline-block;
+    margin: 0 15px;
+    color: #242D52;
+    font-size: 1rem;
+    font-weight: 500px;
+    line-height: 1.35px;
+
+}
+
+.main-nav-link:hover {
+    opacity: 0.5;
+}
+
+/* Intro */
+
+.intro {
+    position: relative;
+    padding: 120px 0;
+}
+
+
+.intro-content {
+    max-width: 445px;
+}
+
+.main-title {
+    font-size: 4rem;
+    font-weight: 700;
+    line-height: 4.5rem;
+    letter-spacing: -1px;
+    color: #242D52;
+
+}
+
+.page-text {
+    width: 350px;
+    font-size: 1.15rem;
+    line-height: 1.85rem;
+    color: #242D52;
+    opacity: 0.5;
+    margin-bottom: 40px;
+
+}
+
+.column3 {
+    width: 260px;
+    height: 235px;
+    background-color: white;
+    padding: 16px;
+    border-radius: 4px;
+    margin: 10px;
+    text-align: center;
+}
+
+.oval-copy {
+    padding-top: 32px;
+}
+
+.intro .row2 {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 100px;
+    justify-content: center;
+}
+
+.percent .row {
+    flex-wrap: wrap;
+}
+
+.percent .span1 {
+    width: 227, 58px;
+    height: 108, 05px;
+    background: #FAFAFA;
+    border-radius: 4px;
+    padding: 54px 73px 23px 18px;
+}
+
+.percent .span2 {
+    width: 106.03px;
+    height: 78.33px;
+    background: #F3603C;
+    border-radius: 4px;
+    padding: 47px 68px 16px 17px;
+    margin-top: 16px;
+    margin-right: 15px;
+}
+
+
+
+.percent .span3 {
+    width: 106.03px;
+    height: 78.33px;
+    background: #FAFAFA;
+    border-radius: 4px;
+    padding: 47px 68px 16px 17px;
+    margin-top: 16px;
+
+}
+
+/* Difference */
+
+.difference {
+    position: relative;
+}
+
+.difference::after {
+    content: "";
+    position: absolute;
+    background: url(../img/bacgraundimg.png) no-repeat;
+    width: 436px;
+    height: 995px;
+    left: 0;
+    bottom: -700px;
+}
+
+.difference .row {
+    justify-content: space-between;
+    align-content: center;
+}
+
+.difference-text {
+    max-width: 445px;
+}
+
+.page-title {
+    margin-top: 0;
+    font-size: 2.85rem;
+    font-weight: 700px;
+    line-height: 3.14rem;
+    color: #242D52;
+
+}
+
+.information {
+    width: 445px;
+}
+
+.info {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+}
+
+
+
+.line h4 {
+    font-size: 1.14rem;
+    font-weight: 700px;
+    line-height: 1.64rem;
+    color: #242D52;
+    margin-top: 0;
+
+}
+
+.number {
+    width: 67px;
+    height: 39px;
+    color: white;
+    font-size: 1.14rem;
+    line-height: 1.64rem;
+    background: #F3603C;
+    border-radius: 39px;
+    text-align: center;
+    padding-top: 7px;
+    margin-right: 28px;
+
+}
+
+
+
+/* coments */
+
+.coments .container {
+    max-width: none;
+    overflow-x: hidden;
+}
+
+.coments {
+    margin-top: 146px;
+}
+
+.coments .row {
+    justify-content: center;
+}
+
+.coments h2 {
+    text-align: center;
+}
+
+.card {
+    width: 540px;
+    height: 220px;
+    background: #FAFAFA;
+    margin: 15px;
+    margin-top: 64px;
+    position: relative;
+    padding: 30px 60px;
+    text-align: center;
+
+}
+
+.card-img {
+    position: absolute;
+    top: -40px;
+    left: 44%;
+    transform: translate(50% 50%);
+}
+
+.card h4 {
+    font-size: 1.14rem;
+    font-weight: 700px;
+    line-height: 1.64rem;
+    color: #242D52;
+}
+
+.card .page-text {
+    width: 460px;
+    height: 78px;
+}
+
+.center-btn {
+    text-align: center;
+    margin-top: 48px;
+}
+
+/* last-section */
+
+.last-section {
+    background: url(../img/bacgraund.png) no-repeat;
+    position: relative;
+    margin-top: 120px;
+    padding: 65px;
+}
+
+.last-section .row {
+    justify-content: space-between;
+    align-items: center;
+}
+
+.last-section .page-title {
+    color: white;
+    width: 445px;
+    margin-bottom: 0;
+}
+
+.last-section .btn2 {
+    background-color: white;
+    color: #F3603C;
+
+}
+
+.btn2:hover {
+    opacity: 0.9;
+
+}
+
+/* footer */
+footer {
+    background-color: #1D1E25;
+padding: 50px;
+}
+
+.main-footer .row {
+    justify-content: space-between;
+    align-items: baseline;
+
+}
+
+.logo{
+    margin-bottom: 82px;
+}
+
+.links a {
+    color: white;
+    font-size: 1.42rem;
+    margin: 6px;
+}
+
+.menu ul {
+    list-style: none;
+    color: white;
+    font-size: 1.07rem;
+}
+ul li{
+    margin-bottom: 13px;
+}
+
+form input {
+    border: 2px solid #F3603C;
+    background: #FFFFFF;
+    border-radius: 22px;
+    padding: 14px 41px 14px 16px;
+}
+form input:focus{
+    outline: none;
+}
+
+.error{
+    visibility: hidden;
+    display: block;
+    color: #F33C3C;
+}
+input:focus ~ .error{
+    visibility: visible;
+}
+
+form button{
+    color: white;
+    background: #F3603C;
+border-radius: 22px;
+border: none;
+padding: 13px 23px 12px 32px;
+font-weight: 700;
+font-size: 0.92rem;
+margin-left: 8px;
+transition: 0.5s;
+}
+form button:hover{
+    background: #F98F75;
+}
+form p{
+    color: white;
+    font-size: 0.92rem;
+    line-height: 1.35rem;
+    opacity: 0.5;
+    margin-top: 100px;
+    margin-left: 80px
+}
+
+
+.links a:hover{
+    color:  #F3603C;
+    cursor: pointer;
+}
+    li:hover{
+        color: #F3603C;
+        cursor: pointer;
+    }
