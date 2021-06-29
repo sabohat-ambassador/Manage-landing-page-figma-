@@ -183,6 +183,7 @@ a {
 }
 
 .page-title {
+    margin-top: 0;
     font-size: 2.85rem;
     font-weight: 700px;
     line-height: 3.14rem;
@@ -195,9 +196,10 @@ a {
 .info {
     display: flex;
     flex-wrap: wrap;
-    position: relative;
+    align-items: baseline;
+}
     
- }
+    
     
 
 
@@ -206,6 +208,7 @@ a {
     font-weight: 700px;
     line-height: 1.64rem;
     color: #242D52;
+    margin-top: 0;
     
 }
 .number {
@@ -218,8 +221,7 @@ a {
     border-radius: 39px;
     text-align: center;
     padding-top: 7px;
-    position: absolute;
-    left: -100px;
-    top: 15px;
+    margin-right: 28px;
+    
 }
     
