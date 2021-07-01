@@ -285,7 +285,7 @@ a {
 /* footer */
 footer {
     background-color: #1D1E25;
-padding: 50px;
+padding: 50px 0;
 }
 
 .main-footer .row {
@@ -293,7 +293,7 @@ padding: 50px;
     align-items: baseline;
 
 }
-.row2{
+.row3{
     display: flex;
 }
 
