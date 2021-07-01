@@ -313,7 +313,12 @@ padding: 50px;
 ul li{
     margin-bottom: 13px;
 }
-
+li a{
+    color: white;
+}
+li a:hover{
+    color: #F3603C;
+}
 form input {
     border: 2px solid #F3603C;
     background: #FFFFFF;
@@ -361,10 +366,7 @@ form p{
     color:  #F3603C;
     cursor: pointer;
 }
-    li:hover{
-        color: #F3603C;
-        cursor: pointer;
-    }
+    
 /* mobile-footer */
 .mobile-footer{
     display: none;
