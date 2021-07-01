@@ -69,7 +69,9 @@ a {
     justify-content: space-between;
     align-items: center;
 }
-
+ .imgmenu{
+    display: none;
+}
 .main-nav-link {
     position: relative;
     display: inline-block;
@@ -92,7 +94,9 @@ a {
     padding: 120px 0;
 }
 
-
+.intro .row{
+    justify-content: space-between;
+}
 .intro-content {
     max-width: 445px;
 }
@@ -116,60 +120,7 @@ a {
 
 }
 
-.column3 {
-    width: 260px;
-    height: 235px;
-    background-color: white;
-    padding: 16px;
-    border-radius: 4px;
-    margin: 10px;
-    text-align: center;
-}
 
-.oval-copy {
-    padding-top: 32px;
-}
-
-.intro .row2 {
-    display: flex;
-    flex-wrap: wrap;
-    margin-left: 100px;
-    justify-content: center;
-}
-
-.percent .row {
-    flex-wrap: wrap;
-}
-
-.percent .span1 {
-    width: 227, 58px;
-    height: 108, 05px;
-    background: #FAFAFA;
-    border-radius: 4px;
-    padding: 54px 73px 23px 18px;
-}
-
-.percent .span2 {
-    width: 106.03px;
-    height: 78.33px;
-    background: #F3603C;
-    border-radius: 4px;
-    padding: 47px 68px 16px 17px;
-    margin-top: 16px;
-    margin-right: 15px;
-}
-
-
-
-.percent .span3 {
-    width: 106.03px;
-    height: 78.33px;
-    background: #FAFAFA;
-    border-radius: 4px;
-    padding: 47px 68px 16px 17px;
-    margin-top: 16px;
-
-}
 
 /* Difference */
 
@@ -272,7 +223,9 @@ a {
     text-align: center;
 
 }
-
+.circles{
+    display: none;
+}
 .card-img {
     position: absolute;
     top: -40px;
@@ -301,6 +254,8 @@ a {
 
 .last-section {
     background: url(../img/bacgraund.png) no-repeat;
+    background-position: center;
+    background-color: #F3603C;
     position: relative;
     margin-top: 120px;
     padding: 65px;
@@ -410,3 +365,7 @@ form p{
         color: #F3603C;
         cursor: pointer;
     }
+/* mobile-footer */
+.mobile-footer{
+    display: none;
+}

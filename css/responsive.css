@@ -1,0 +1,166 @@
+@media (max-width:1199px){
+
+    .container{
+        max-width: 950px;
+    }
+   .intro .imgs img{
+       width: 400px;
+   }
+
+}
+@media (max-width:991px){
+.intro-content .main-title{
+    font-size: 3rem;
+}
+.difference .line h4{
+    background: #FFF0EC;
+border-radius: 39px 0px 0px 39px;
+
+}
+.difference::after{
+    content: none;
+}
+.difference .row{
+    flex-wrap: wrap;
+}
+.difference-text{
+    width: 100%;
+}
+.difference .information{
+    width: 100%;
+}
+
+.last-section .page-title{
+    font-size: 1.85rem;
+}
+.main-footer .sayts{
+width: 100%;
+}
+.main-footer{
+    padding: 50px 0px;
+}
+
+
+}
+@media (max-width:767px){
+     .main-nav{
+        display: none;
+    }
+    .main-header .btn{
+        display: none;
+    }
+    .intro .imgs{
+        width: 100%;
+        order: -1;
+    }
+    .intro-content{
+        width: 100%;
+        text-align: center;
+    }
+
+    .intro .row{
+        flex-wrap: wrap;
+    }
+}
+@media (max-width:565px){
+
+     .imgmenu{
+       display: block ;
+    }
+
+    .intro-content .main-title{
+        font-size: 3rem;
+        /* width: 309px ; */
+    }
+    .intro-content{
+        width: 100%;
+
+    }
+    .main-footer{
+        display: none;
+    }
+    .mobile-footer{
+        display: block;
+    }
+    .difference-text{
+        width: 323px;
+        text-align: center;
+    }
+    .line h4 {
+        margin-left: -30px;
+        padding: 10px;
+    } 
+
+    .coments .card{
+        width: 100%;
+        height: 248px;
+        
+    }
+    .card .page-text{
+        width: 298px;
+        text-align: center;
+    }
+    .card img{
+        left: 43%;
+    }
+    .coments .row2{
+        flex-wrap: wrap;
+    }
+    .row2 .circles{
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .circles{
+        display: block;
+       
+        width: 43px;
+        height: 7px;
+    }
+    .last-section .row{
+        flex-wrap: wrap;
+    }
+    .last-section .page-title{
+        font-size: 3rem;
+        text-align: center;
+        margin-bottom: 29px;
+    }
+    .last-section .btn2{
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+}
+@media (max-width:480px){
+    .intro .imgs img{
+        width: 350px;
+        margin-top: 10px;
+    }
+    .line{
+        width: 100%;
+    }
+    .number{
+        position: absolute;
+    }
+    .line h4{
+        padding-left: 100px;
+       
+    }
+    .last-section .page-title{
+        font-size: 2rem;
+    }
+    .mobile-footer{
+        padding: 30px 20px 20px 20px;
+    }
+    .mobile-footer .menu{
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .mobile-footer .links, .logo{
+        text-align: center;
+        margin-top: 40px;
+    }
+    .mobile-footer p{
+        text-align: center;
+        opacity: 0.5;
+    }
+}
