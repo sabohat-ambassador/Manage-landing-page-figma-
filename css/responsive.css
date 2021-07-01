@@ -175,9 +175,11 @@ width: 100%;
         margin-top: 0px;
         margin-left: 20px;
     }
- 
+ .coments .card{
+     width: 100%;
+ }
     .last-section .page-title{
-        font-size: 2.60rem;
+        font-size: 2.40rem;
     }
     .main-footer .menu{
         margin-top: 30px;
@@ -191,7 +193,7 @@ width: 100%;
         text-align: center;
     }
     .links i{
-        font-size: 2.30rem;
+        font-size: 2.07rem;
     }
     .links :not(:last-child){
         margin-right: 20px;
@@ -205,8 +207,11 @@ width: 100%;
     }
     .main-footer p{
         position: absolute;
-        top: 300px;
+        top: 400px;
         left: 50px;
+    }
+    .main-footer .footer-form{
+        width: 100%;
     }
    
   

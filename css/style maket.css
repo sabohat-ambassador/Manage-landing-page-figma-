@@ -322,7 +322,7 @@ form input {
     border: 2px solid #F3603C;
     background: #FFFFFF;
     border-radius: 22px;
-    padding: 14px 41px 14px 16px;
+    padding: 14px 30px 14px 16px;
 }
 form input:focus{
     outline: none;
