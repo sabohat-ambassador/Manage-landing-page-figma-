@@ -16,7 +16,7 @@ body {
 
     background-image: url(../img/Rectangle.png);
     background-repeat: no-repeat;
-    background-position: 750px 0;
+    background-position: top right;
 }
 
 
@@ -292,6 +292,9 @@ padding: 50px;
     justify-content: space-between;
     align-items: baseline;
 
+}
+.row2{
+    display: flex;
 }
 
 .logo{
