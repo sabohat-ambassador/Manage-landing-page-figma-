@@ -213,7 +213,6 @@ a {
 }
 
 .card {
-    width: 540px;
     height: 220px;
     background: #FAFAFA;
     margin: 15px;
@@ -367,7 +366,3 @@ form p{
     cursor: pointer;
 }
     
-/* mobile-footer */
-.mobile-footer{
-    display: none;
-}
