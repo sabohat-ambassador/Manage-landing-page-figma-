@@ -82,6 +82,9 @@ a {
     line-height: 1.35px;
 
 }
+.menu-toggle {
+    display: none;
+}
 
 .main-nav-link:hover {
     opacity: 0.5;
